@@ -1,0 +1,6498 @@
+{
+  "version": {
+    "_version": 13.02,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 1620614,
+    "manualSave": false,
+    "model": {
+      "modelID": "6821998e7e146e284d230920"
+    },
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "68219d4392465c3b0c908091",
+          "name": "House",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "House",
+              "slots": []
+            },
+            {
+              "text": "Home",
+              "slots": []
+            },
+            {
+              "text": "Living quarters",
+              "slots": []
+            },
+            {
+              "text": "Residence",
+              "slots": []
+            },
+            {
+              "text": "Family home",
+              "slots": []
+            },
+            {
+              "text": "Mansion",
+              "slots": []
+            }
+          ],
+          "noteID": "ac6et0dak",
+          "description": "The user's property type is house"
+        },
+        {
+          "key": "68219ddb92465c3b0c90809d",
+          "name": "Apartment",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Apartment",
+              "slots": []
+            },
+            {
+              "text": "Condo",
+              "slots": []
+            },
+            {
+              "text": "Studio",
+              "slots": []
+            },
+            {
+              "text": "Townhouse",
+              "slots": []
+            },
+            {
+              "text": "Duplex",
+              "slots": []
+            },
+            {
+              "text": "Penthouse",
+              "slots": []
+            }
+          ],
+          "noteID": "ac6eu0d5z",
+          "description": "The user's property is an apartment"
+        },
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "6797c2110cfd6c00ccbedd9f",
+          "name": "No",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I'm good",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "I think I'm good thanks",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "Under no circumstances",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Nope, not at all",
+              "slots": []
+            },
+            {
+              "text": "No way",
+              "slots": []
+            },
+            {
+              "text": "By no means",
+              "slots": []
+            },
+            {
+              "text": "Not in the slightest",
+              "slots": []
+            },
+            {
+              "text": "No chance",
+              "slots": []
+            },
+            {
+              "text": "Absolutely not",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Negative",
+              "slots": []
+            },
+            {
+              "text": "Sorry, no",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "That's wrong",
+              "slots": []
+            },
+            {
+              "text": "Incorrect",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "No",
+              "slots": []
+            }
+          ],
+          "noteID": "ac6ev0dy5",
+          "description": "Trigger this intent then the user responds negatively"
+        },
+        {
+          "key": "6797c2660cfd6c00ccbeddd1",
+          "name": "Yes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Of course",
+              "slots": []
+            },
+            {
+              "text": "Certainly",
+              "slots": []
+            },
+            {
+              "text": "Without question",
+              "slots": []
+            },
+            {
+              "text": "Sure",
+              "slots": []
+            },
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "You bet",
+              "slots": []
+            },
+            {
+              "text": "Without a doubt",
+              "slots": []
+            },
+            {
+              "text": "By all means",
+              "slots": []
+            },
+            {
+              "text": "Agreed",
+              "slots": []
+            },
+            {
+              "text": "Absolutely",
+              "slots": []
+            },
+            {
+              "text": "That's correct",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Affirmative",
+              "slots": []
+            },
+            {
+              "text": "You are right",
+              "slots": []
+            },
+            {
+              "text": "Correct",
+              "slots": []
+            },
+            {
+              "text": "Yep",
+              "slots": []
+            },
+            {
+              "text": "Yes",
+              "slots": []
+            }
+          ],
+          "noteID": "ad6ew0dpj",
+          "description": "Trigger this intent when the user responds positively."
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "static",
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Sorry, I didn’t get that. Please try again."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "elevenlabs:eleven_turbo_v2_5:FGY2WhTYpPnrIDTdsKH5",
+        "deepgramASR": {
+          "silenceWaitMS": 10,
+          "punctuationWaitMS": 1000,
+          "partialWaitMS": 1500,
+          "interruptionWaitWords": 2,
+          "audioCue": null
+        }
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "agents": {},
+      "prompts": {
+        "68218b0305920ebb95324225": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": ""
+            }
+          ]
+        },
+        "68218b4105920ebb95324228": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "useStructuredOutput": false,
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "Summarize the customers question below and ask them to confirm if thats what they meant. They should be able to answer only with yes or no, this is a confirmation step. not asking for more information.\n\nQuestion: {first_user_reply} \n\nEnsure your tone is empathetic. Speak directly to the end customer. Keep your answer brief and two sentences max."
+            }
+          ]
+        },
+        "6821981305920ebb95324250": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "useStructuredOutput": false,
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "You are an AI Customer support rep from GABA helping a customer with their question. Use the provided details below to answer the customers question.\n\nEnsure to keep your answer brief and speak directly to the end customer. You are speaking to them over the phone.\n\nInput data:\n1. Provided details: \"{chunks} \"\n2. The User's orginal question: \"{first_user_reply} \"\n3. Our summary of their problem that they confirmed: \"{summarized_problem}"
+            }
+          ]
+        },
+        "68219f4e05920ebb95324265": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "useStructuredOutput": false,
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Extract the number of square feet from what the user said in numerical only format.\n\ne.g: 500\n\nUser said: {last_utterance} \n\nInclude nothing else in your response.\n\nThis will be saved as a variable"
+            }
+          ]
+        },
+        "6821a72d05920ebb95324299": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "write a short and clear explanation of this quote for the customer's {property_type} :{raw_quote_data} \n\nYour response will be read over the phone and so must be all in pne paragraph, be no longer than 3-4 short sentences.\n\nIt should read like:\n\nBased on your requirements the estimated cost will be £45000.  \n\nDo not ask a question at the end. just give them a description."
+            }
+          ]
+        },
+        "6821a9b005920ebb953242b1": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "We have just asked the user to provide their name and phone number, we need to attempt to extract the information and confirm it with them.\n\nHere's their reply:\n{last_utterance} \n\nIf there is a valid name and phone number present then you must do a confirmation, e.g \"Ok, just quickly to confirm your name is [name] and your number is [number]. Is that correct?\n\nHowever if one or both are missing or appears to be invalid. You must output only 'RETRY' as your response and nothing else. This RETRY variable will be checked for and if it matches exactly then it will trigger another attempt to capture.\n\nSo please either,\na) write a short and sweet confirmation message\nOR\nb) output RETRY for another attempt at capturing"
+            }
+          ]
+        },
+        "6821acdb05920ebb953242c0": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "We have just confirmed the user's name and phone number, now we need to store their name as a variable.\n\nPlease output their name and their name only."
+            }
+          ]
+        },
+        "6821ad5a05920ebb953242c3": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "We have just confirmed the user's name and phone number, now we need to store their phone number as a variable.\n\nPlease output their phone number and their phone number only."
+            }
+          ]
+        },
+        "682191b905920ebb95324237": {
+          "settings": {
+            "model": "gpt-4o-mini",
+            "useStructuredOutput": false,
+            "maxTokens": 500,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "{vf_memory}"
+            },
+            {
+              "role": "user",
+              "content": "What does the customer want to do?\n\nAsk a question, get a realtime quote or something else entirely?\n\nYou must output a label for this only, Your options are:\n\n\"ask_a_question\": general questions about our business, our services, how we operate etc, these will be routed to a knowledge base of our company docs to be answered.\n\"get_a_quote\": They are asking about pricing or have directly requested a quote etc,\nThis will take them to a real time quotation tool that takes in their property type and size then returns the estimate.\n\"other\": anything outside of these two.\n\nDO NOT INCLUDE ANY OTHER EXPLANATION OR REASONING IN YOUR RESPONSE, JUST GIVE THE LABEL AS THE OUTPUT ONLY."
+            }
+          ]
+        }
+      },
+      "apiTools": {},
+      "messages": {
+        "68218a1792465c3b0c9079ba": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hey, Welcome to Gaba, How can I help?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hello, welcome to Gaba, how can I assist you?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hi there, how can I assist you today?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Welcome to Gaba, how may I help you?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hey, thanks for choosing Gaba, what can I do for you?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hello, how can I assist you today at Gaba?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Welcome to Gaba, how can I be of service to you?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821976d92465c3b0c907e9c": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "text": "{summarized_problem}"
+                        },
+                        {
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68219c9492465c3b0c90804f": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Ok sure to give you an instant quote, I just need the property type and size in square feet."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68219cc892465c3b0c908076": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Is the property a house or an apartment?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Is the place a house or an apartment?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Is this property a house or an apartment?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              },
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Is it a house or an apartment?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68219e9f92465c3b0c9080d6": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "And how many square feet is it?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821a8f292465c3b0c9083bf": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Please provide your name and phone number and i will get one of the team to call you to find a time that works"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821abb192465c3b0c9084d5": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "text": "{last_response}"
+                        },
+                        {
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821ac0c92465c3b0c90852a": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Ok lets try that again, please give your full name and phone number"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821ac5905920ebb953242ba": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Ok lets try that again, please give your full name and phone number"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821adde92465c3b0c9085cd": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Great, Let me get that added to our system"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821b46a92465c3b0c908801": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "aLL DONE, tHANK YOU"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "6821b47992465c3b0c908815": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "sOMETHING WENT WRONG"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "685bc16f00cd24f6c102cc2a": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "The approximate cleaning price will be around £"
+                        },
+                        {
+                          "text": "{price}"
+                        },
+                        {
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      },
+      "integrationTools": {}
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Chatbot",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "68219d4392465c3b0c908091",
+            "name": "House",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "House",
+                "slots": []
+              },
+              {
+                "text": "Home",
+                "slots": []
+              },
+              {
+                "text": "Living quarters",
+                "slots": []
+              },
+              {
+                "text": "Residence",
+                "slots": []
+              },
+              {
+                "text": "Family home",
+                "slots": []
+              },
+              {
+                "text": "Mansion",
+                "slots": []
+              }
+            ],
+            "noteID": "ac6et0dak",
+            "description": "The user's property type is house"
+          },
+          {
+            "key": "68219ddb92465c3b0c90809d",
+            "name": "Apartment",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Apartment",
+                "slots": []
+              },
+              {
+                "text": "Condo",
+                "slots": []
+              },
+              {
+                "text": "Studio",
+                "slots": []
+              },
+              {
+                "text": "Townhouse",
+                "slots": []
+              },
+              {
+                "text": "Duplex",
+                "slots": []
+              },
+              {
+                "text": "Penthouse",
+                "slots": []
+              }
+            ],
+            "noteID": "ac6eu0d5z",
+            "description": "The user's property is an apartment"
+          },
+          {
+            "key": "6797c2110cfd6c00ccbedd9f",
+            "name": "No",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I'm good",
+                "slots": []
+              },
+              {
+                "text": "Nope",
+                "slots": []
+              },
+              {
+                "text": "I think I'm good thanks",
+                "slots": []
+              },
+              {
+                "text": "Definitely not",
+                "slots": []
+              },
+              {
+                "text": "Under no circumstances",
+                "slots": []
+              },
+              {
+                "text": "Not at all",
+                "slots": []
+              },
+              {
+                "text": "Nope, not at all",
+                "slots": []
+              },
+              {
+                "text": "No way",
+                "slots": []
+              },
+              {
+                "text": "By no means",
+                "slots": []
+              },
+              {
+                "text": "Not in the slightest",
+                "slots": []
+              },
+              {
+                "text": "No chance",
+                "slots": []
+              },
+              {
+                "text": "Absolutely not",
+                "slots": []
+              },
+              {
+                "text": "Negative",
+                "slots": []
+              },
+              {
+                "text": "Sorry, no",
+                "slots": []
+              },
+              {
+                "text": "That's wrong",
+                "slots": []
+              },
+              {
+                "text": "Incorrect",
+                "slots": []
+              },
+              {
+                "text": "No",
+                "slots": []
+              }
+            ],
+            "noteID": "ac6ev0dy5",
+            "description": "Trigger this intent then the user responds negatively"
+          },
+          {
+            "key": "6797c2660cfd6c00ccbeddd1",
+            "name": "Yes",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Definitely",
+                "slots": []
+              },
+              {
+                "text": "Indeed",
+                "slots": []
+              },
+              {
+                "text": "Of course",
+                "slots": []
+              },
+              {
+                "text": "Certainly",
+                "slots": []
+              },
+              {
+                "text": "Without question",
+                "slots": []
+              },
+              {
+                "text": "Sure",
+                "slots": []
+              },
+              {
+                "text": "You bet",
+                "slots": []
+              },
+              {
+                "text": "Without a doubt",
+                "slots": []
+              },
+              {
+                "text": "By all means",
+                "slots": []
+              },
+              {
+                "text": "Agreed",
+                "slots": []
+              },
+              {
+                "text": "Absolutely",
+                "slots": []
+              },
+              {
+                "text": "That's correct",
+                "slots": []
+              },
+              {
+                "text": "Affirmative",
+                "slots": []
+              },
+              {
+                "text": "You are right",
+                "slots": []
+              },
+              {
+                "text": "Correct",
+                "slots": []
+              },
+              {
+                "text": "Yep",
+                "slots": []
+              },
+              {
+                "text": "Yes",
+                "slots": []
+              }
+            ],
+            "noteID": "ad6ew0dpj",
+            "description": "Trigger this intent when the user responds positively."
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "68219c9492465c3b0c90804f",
+          "6821976d92465c3b0c907e9c",
+          "68219cc892465c3b0c908076",
+          "68219e9f92465c3b0c9080d6",
+          "6821a8f292465c3b0c9083bf",
+          "6821abb192465c3b0c9084d5",
+          "6821ac0c92465c3b0c90852a",
+          "6821ac5905920ebb953242ba",
+          "6821adde92465c3b0c9085cd",
+          "6821b46a92465c3b0c908801",
+          "6821b47992465c3b0c908815",
+          "68218a1792465c3b0c9079ba",
+          "685bc16f00cd24f6c102cc2a"
+        ],
+        "referencedAgentsIDs": [],
+        "referencedAPIToolIDs": [],
+        "referencedIntegrationToolIDs": [],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "68219d4392465c3b0c908091",
+          "68219ddb92465c3b0c90809d",
+          "6797c2660cfd6c00ccbeddd1",
+          "6797c2110cfd6c00ccbedd9f"
+        ],
+        "goToIntentsSet": [],
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {},
+        "eventsMap": {},
+        "cmsVariables": {
+          "summarized_problem": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "chunks": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "property_type": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "sessions": {
+            "isSystem": true,
+            "description": "The number of times a particular user has opened the app.",
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "description": "The user's unique ID.",
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "description": "The agent's last response (text/speak) in a string.",
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "description": "The object containing the last event that the user client has triggered.",
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "description": "The user's last utterance in a text string.",
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+            "defaultValue": null
+          },
+          "first_user_reply": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "users first reply",
+            "defaultValue": null
+          },
+          "property_size": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "desired_action": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "the most likely action that the prospect want to take",
+            "defaultValue": null
+          },
+          "raw_quote_data": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "raw quote data from instant quote generator tool",
+            "defaultValue": null
+          },
+          "name": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "users name",
+            "defaultValue": null
+          },
+          "phone_number": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "users phone number",
+            "defaultValue": null
+          },
+          "price": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "cleaningprice": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          }
+        },
+        "cmsEntities": {}
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "settings": {
+      "memory": {
+        "turns": 25
+      },
+      "intentClassification": {
+        "type": "rag",
+        "params": {
+          "model": "claude-3.5-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      },
+      "voice": {
+        "failureMessage": "We’re sorry, but the call cannot be completed at this time. Please try again later.",
+        "hasCallRecording": false,
+        "tts": {
+          "provider": "elevenlabs",
+          "voice": "FGY2WhTYpPnrIDTdsKH5",
+          "model": "eleven_turbo_v2_5",
+          "settings": {}
+        }
+      },
+      "globalNoMatch": {
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "Sorry, I didn’t get that. Please try again."
+            ]
+          }
+        ]
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "summarized_problem",
+      "chunks",
+      "property_type",
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "first_user_reply",
+      "property_size",
+      "desired_action",
+      "raw_quote_data",
+      "name",
+      "phone_number",
+      "price",
+      "cleaningprice"
+    ],
+    "_id": "682189d592465c3b0c907995",
+    "updatedAt": "2025-07-01T07:04:06.901Z",
+    "publishedAt": "2024-09-27T16:54:27.996Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 1620614,
+        "updatedAt": "2025-05-12T05:40:37.515Z"
+      }
+    ],
+    "projectID": "682189d592465c3b0c907994",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 1620614,
+      "variables": [],
+      "menuItems": [],
+      "_id": "682189d592465c3b0c907997",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "682189d592465c3b0c907995"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 74.99999999999999,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "68218a17a6c3a94928b09d0d",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -440.5091128643372,
+            153.62426869836892
+          ]
+        },
+        "68218a17a6c3a94928b09d0f": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "steps": [
+              "68218a17a6c3a94928b09d0d",
+              "68218a4ca6c3a94928b09d16"
+            ],
+            "color": ""
+          },
+          "nodeID": "68218a17a6c3a94928b09d0f",
+          "coords": [
+            -158.6384292502113,
+            26.424610640082765
+          ]
+        },
+        "68218a4ca6c3a94928b09d16": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "68218aa892465c3b0c9079eb"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68218ad6a6c3a94928b09d1c",
+                  "id": "68218a4ca6c3a94928b09d17",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          7.36,
+                          227.76
+                        ]
+                      },
+                      {
+                        "point": [
+                          93.91,
+                          227.76
+                        ]
+                      },
+                      {
+                        "point": [
+                          93.91,
+                          17.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          180.46,
+                          17.72
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68218a4ca6c3a94928b09d16",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68218ad6a6c3a94928b09d1c": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmakns6kz00ar3j7vubbx9nx0",
+                "type": "prompt",
+                "label": null,
+                "value": "68218b4105920ebb95324228",
+                "variableID": "6821978492465c3b0c907ea2"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68218ad6a6c3a94928b09d1d"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68218ad6a6c3a94928b09d1c"
+        },
+        "68218ad6a6c3a94928b09d1e": {
+          "type": "block",
+          "data": {
+            "name": "confirm",
+            "steps": [
+              "68218ad6a6c3a94928b09d1c",
+              "6821976ca6c3a94928b09e02",
+              "68218ceaa6c3a94928b09d2b"
+            ],
+            "color": ""
+          },
+          "nodeID": "68218ad6a6c3a94928b09d1e",
+          "coords": [
+            346.456572940253,
+            -61.276312166301274
+          ]
+        },
+        "68218e36a6c3a94928b09d3f": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmakorl7q00sg3j7vp4zplw0g",
+                "type": "prompt",
+                "label": null,
+                "value": "682191b905920ebb95324237",
+                "variableID": "6821919b92465c3b0c907bf5"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68218e36a6c3a94928b09d40"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68218e36a6c3a94928b09d3f"
+        },
+        "68218e36a6c3a94928b09d41": {
+          "type": "block",
+          "data": {
+            "name": "intent classifier and router",
+            "steps": [
+              "68218e36a6c3a94928b09d3f",
+              "682193a1a6c3a94928b09d49"
+            ],
+            "color": ""
+          },
+          "nodeID": "68218e36a6c3a94928b09d41",
+          "coords": [
+            798.9523667157704,
+            -29.437429913019823
+          ]
+        },
+        "682193a1a6c3a94928b09d49": {
+          "type": "condition-v3",
+          "data": {
+            "name": "",
+            "noMatch": {
+              "path": false,
+              "repromptID": null,
+              "pathLabel": null
+            },
+            "condition": {
+              "type": "logic",
+              "items": [
+                {
+                  "id": "cmakp4oot015s3j7vkhzbvs9u",
+                  "value": {
+                    "type": "value-variable",
+                    "matchAll": true,
+                    "assertions": [
+                      {
+                        "lhs": {
+                          "variableID": "6821919b92465c3b0c907bf5"
+                        },
+                        "rhs": [
+                          {
+                            "text": [
+                              "ask_a_question"
+                            ]
+                          }
+                        ],
+                        "key": "cmakp4oot015t3j7vmlic7rrk",
+                        "operation": "is"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cmakp5u4x017e3j7veemp4y1v",
+                  "value": {
+                    "type": "value-variable",
+                    "matchAll": true,
+                    "assertions": [
+                      {
+                        "lhs": {
+                          "variableID": "6821919b92465c3b0c907bf5"
+                        },
+                        "rhs": [
+                          {
+                            "text": [
+                              "get_a_quote"
+                            ]
+                          }
+                        ],
+                        "key": "cmakp5u4x017f3j7vbepe17wm",
+                        "operation": "is"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "682193a1a6c3a94928b09d4a"
+                },
+                "cmakp4oot015s3j7vkhzbvs9u": {
+                  "id": "682193b6a6c3a94928b09d4e",
+                  "target": "6821941ba6c3a94928b09d55",
+                  "type": "",
+                  "data": {}
+                },
+                "cmakp5u4x017e3j7veemp4y1v": {
+                  "id": "682193eba6c3a94928b09d51",
+                  "target": "68219422a6c3a94928b09d5c",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          964.95,
+                          208.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          1113.16,
+                          208.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          1113.16,
+                          56.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          1261.37,
+                          56.19
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "682193a1a6c3a94928b09d49"
+        },
+        "6821941ba6c3a94928b09d55": {
+          "type": "block",
+          "data": {
+            "name": "New Block 5",
+            "steps": [
+              "682196b1a6c3a94928b09dfc"
+            ]
+          },
+          "nodeID": "6821941ba6c3a94928b09d55",
+          "coords": [
+            1192.1005816454492,
+            -316.3469142260381
+          ]
+        },
+        "68219422a6c3a94928b09d5c": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68219422a6c3a94928b09d5d"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68219c9492465c3b0c90804f"
+          },
+          "nodeID": "68219422a6c3a94928b09d5c"
+        },
+        "68219422a6c3a94928b09d5e": {
+          "type": "block",
+          "data": {
+            "name": "generate quote",
+            "steps": [
+              "68219422a6c3a94928b09d5c",
+              "68219cc4a6c3a94928b09e57",
+              "68219ce6a6c3a94928b09e5c"
+            ],
+            "color": ""
+          },
+          "nodeID": "68219422a6c3a94928b09d5e",
+          "coords": [
+            1427.3663171720943,
+            -22.81357072136406
+          ]
+        },
+        "6821945fa6c3a94928b09d79": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Tool 1: answer from knowledge base"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 369,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "6821945fa6c3a94928b09d79",
+          "coords": [
+            1037.5083644761878,
+            -375.64957030469725
+          ]
+        },
+        "682196b1a6c3a94928b09dfc": {
+          "type": "kb-search",
+          "data": {
+            "name": "",
+            "question": [
+              {
+                "text": [
+                  "User's first message: ",
+                  {
+                    "variableID": "68218aa892465c3b0c9079eb"
+                  },
+                  " "
+                ]
+              },
+              {
+                "text": [
+                  "Summarized Problem: ",
+                  {
+                    "variableID": "6821978492465c3b0c907ea2"
+                  },
+                  " "
+                ]
+              }
+            ],
+            "maxChunks": 3,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6821980da6c3a94928b09e06",
+                  "id": "682196b1a6c3a94928b09dfd",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "variableID": "682197d292465c3b0c907ea8"
+          },
+          "nodeID": "682196b1a6c3a94928b09dfc"
+        },
+        "6821976ca6c3a94928b09e02": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "6821976d92465c3b0c907e9c",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821976ca6c3a94928b09e03"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821976ca6c3a94928b09e02",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6821980da6c3a94928b09e06": {
+          "type": "response-prompt",
+          "data": {
+            "name": "Untitled prompt",
+            "promptID": "6821981305920ebb95324250",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821980da6c3a94928b09e07"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821980da6c3a94928b09e06"
+        },
+        "6821980da6c3a94928b09e08": {
+          "type": "block",
+          "data": {
+            "name": "Generate answer",
+            "steps": [
+              "6821980da6c3a94928b09e06"
+            ],
+            "color": ""
+          },
+          "nodeID": "6821980da6c3a94928b09e08",
+          "coords": [
+            1790.4566040039062,
+            -371.0887451171875
+          ]
+        },
+        "68219cc4a6c3a94928b09e57": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68219cc4a6c3a94928b09e58"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68219cc892465c3b0c908076"
+          },
+          "nodeID": "68219cc4a6c3a94928b09e57"
+        },
+        "68219ce6a6c3a94928b09e5c": {
+          "type": "choice-v2",
+          "data": {
+            "name": "Choice",
+            "items": [
+              {
+                "id": "cmakqj9sa02ay3j7v34us9axm",
+                "intentID": "68219d4392465c3b0c908091",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmakqm0cj02cp3j7vswipx3ju",
+                "intentID": "68219ddb92465c3b0c90809d",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmakqj9sa02ay3j7v34us9axm": {
+                  "id": "68219ceea6c3a94928b09e5f",
+                  "target": "68219e37a6c3a94928b09e6a",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1593.37,
+                          267.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1715.62,
+                          267.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1715.62,
+                          112.87
+                        ]
+                      },
+                      {
+                        "point": [
+                          1837.87,
+                          112.87
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "cmakqm0cj02cp3j7vswipx3ju": {
+                  "id": "68219d6da6c3a94928b09e65",
+                  "target": "68219e6fa6c3a94928b09e75",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1593.37,
+                          321.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1721.12,
+                          321.35
+                        ]
+                      },
+                      {
+                        "point": [
+                          1721.12,
+                          275.87
+                        ]
+                      },
+                      {
+                        "point": [
+                          1848.87,
+                          275.87
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68219ce6a6c3a94928b09e5c",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68219e37a6c3a94928b09e6a": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmakqqg1v02fu3j7vmndrx6m2",
+                "type": "value",
+                "label": null,
+                "value": [
+                  {
+                    "text": [
+                      "House"
+                    ]
+                  }
+                ],
+                "variableID": "68219e5692465c3b0c9080c3"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68219e9ba6c3a94928b09e86",
+                  "id": "68219e37a6c3a94928b09e6b",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68219e37a6c3a94928b09e6a"
+        },
+        "68219e37a6c3a94928b09e6c": {
+          "type": "block",
+          "data": {
+            "name": "New Block 10",
+            "steps": [
+              "68219e37a6c3a94928b09e6a"
+            ],
+            "color": ""
+          },
+          "nodeID": "68219e37a6c3a94928b09e6c",
+          "coords": [
+            2003.8660888671877,
+            33.874053955078196
+          ]
+        },
+        "68219e6fa6c3a94928b09e75": {
+          "type": "block",
+          "data": {
+            "name": "New Block 10",
+            "color": "",
+            "steps": [
+              "68219e6fa6c3a94928b09e77"
+            ]
+          },
+          "nodeID": "68219e6fa6c3a94928b09e75",
+          "coords": [
+            2013.8660888671875,
+            248.87405395507818
+          ]
+        },
+        "68219e6fa6c3a94928b09e77": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmakqqg1v02fu3j7vmndrx6m2",
+                "type": "value",
+                "label": null,
+                "value": [
+                  {
+                    "text": [
+                      "Apartment"
+                    ]
+                  }
+                ],
+                "variableID": "68219e5692465c3b0c9080c3"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68219e9ba6c3a94928b09e84",
+                  "id": "68219e6fa6c3a94928b09e78",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68219e6fa6c3a94928b09e77"
+        },
+        "68219e9ba6c3a94928b09e84": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68219e9ba6c3a94928b09e85"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68219e9f92465c3b0c9080d6"
+          },
+          "nodeID": "68219e9ba6c3a94928b09e84"
+        },
+        "68219e9ba6c3a94928b09e86": {
+          "type": "block",
+          "data": {
+            "name": "New Block 13",
+            "steps": [
+              "68219e9ba6c3a94928b09e84",
+              "68219edaa6c3a94928b09e8e"
+            ]
+          },
+          "nodeID": "68219e9ba6c3a94928b09e86",
+          "coords": [
+            2640.366271972656,
+            125.81150817871091
+          ]
+        },
+        "68219edaa6c3a94928b09e8e": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "last_utterance"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68219f04a6c3a94928b09e96",
+                  "id": "68219edaa6c3a94928b09e8f",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          2806.37,
+                          272.48
+                        ]
+                      },
+                      {
+                        "point": [
+                          2929.75,
+                          272.48
+                        ]
+                      },
+                      {
+                        "point": [
+                          2929.75,
+                          61.87
+                        ]
+                      },
+                      {
+                        "point": [
+                          3053.14,
+                          61.87
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68219edaa6c3a94928b09e8e"
+        },
+        "68219f04a6c3a94928b09e94": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmakquz7602lr3j7v8xwfozjz",
+                "type": "prompt",
+                "label": null,
+                "value": "68219f4e05920ebb95324265",
+                "variableID": "68219fe392465c3b0c908127"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68219f04a6c3a94928b09e95"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68219f04a6c3a94928b09e94"
+        },
+        "68219f04a6c3a94928b09e96": {
+          "type": "block",
+          "data": {
+            "name": "New Block 14",
+            "steps": [
+              "68219f04a6c3a94928b09e94",
+              "685bc155f640fa6b802780fb",
+              "685bc16bf640fa6b8027810b"
+            ]
+          },
+          "nodeID": "68219f04a6c3a94928b09e96",
+          "coords": [
+            3218.136591275993,
+            34.866297728783486
+          ]
+        },
+        "6821a8eba6c3a94928b09ebb": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821a8eba6c3a94928b09ebc"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "6821a8f292465c3b0c9083bf"
+          },
+          "nodeID": "6821a8eba6c3a94928b09ebb"
+        },
+        "6821a8eba6c3a94928b09ebd": {
+          "type": "block",
+          "data": {
+            "name": "New Block 15",
+            "steps": [
+              "6821a8eba6c3a94928b09ebb",
+              "6821a931a6c3a94928b09ec4"
+            ]
+          },
+          "nodeID": "6821a8eba6c3a94928b09ebd",
+          "coords": [
+            4285.616210937498,
+            137.99889026988623
+          ]
+        },
+        "6821a931a6c3a94928b09ec4": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "last_utterance"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6821a949a6c3a94928b09eca",
+                  "id": "6821a931a6c3a94928b09ec5",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4451.62,
+                          323
+                        ]
+                      },
+                      {
+                        "point": [
+                          4475.62,
+                          323
+                        ]
+                      },
+                      {
+                        "point": [
+                          4475.62,
+                          459.58
+                        ]
+                      },
+                      {
+                        "point": [
+                          4408.28,
+                          459.58
+                        ]
+                      },
+                      {
+                        "point": [
+                          4408.28,
+                          596.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          4432.28,
+                          596.17
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821a931a6c3a94928b09ec4"
+        },
+        "6821a949a6c3a94928b09eca": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmaksf6nk03ic3j7vn9oafnzg",
+                "type": "prompt",
+                "label": null,
+                "value": "6821a9b005920ebb953242b1",
+                "variableID": "last_response"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821a949a6c3a94928b09ecb"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821a949a6c3a94928b09eca"
+        },
+        "6821a949a6c3a94928b09ecc": {
+          "type": "block",
+          "data": {
+            "name": "New Block 16",
+            "steps": [
+              "6821a949a6c3a94928b09eca",
+              "6821ab5ca6c3a94928b09ed4"
+            ]
+          },
+          "nodeID": "6821a949a6c3a94928b09ecc",
+          "coords": [
+            4598.282877604164,
+            517.1655569365528
+          ]
+        },
+        "6821ab5ca6c3a94928b09ed4": {
+          "type": "condition-v3",
+          "data": {
+            "name": "",
+            "noMatch": {
+              "path": true,
+              "repromptID": null
+            },
+            "condition": {
+              "type": "logic",
+              "items": [
+                {
+                  "id": "cmaksqns703v63j7vwjk1mbfb",
+                  "value": {
+                    "type": "value-variable",
+                    "matchAll": true,
+                    "assertions": [
+                      {
+                        "lhs": {
+                          "variableID": "last_response"
+                        },
+                        "rhs": [
+                          {
+                            "text": [
+                              "RETRY"
+                            ]
+                          }
+                        ],
+                        "key": "cmaksqns703v73j7vy2pa1jih",
+                        "operation": "not_contains"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821ab5ca6c3a94928b09ed5"
+                },
+                "else": {
+                  "type": "else",
+                  "target": "6821ac57a6c3a94928b09ef9",
+                  "id": "6821ab5ca6c3a94928b09ed6",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4432.28,
+                          746.17
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          4311.46,
+                          746.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          4311.46,
+                          915.15
+                        ]
+                      },
+                      {
+                        "point": [
+                          4190.64,
+                          915.15
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "cmaksqns703v63j7vwjk1mbfb": {
+                  "id": "6821ab66a6c3a94928b09ed9",
+                  "target": "6821abb0a6c3a94928b09edc",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4764.28,
+                          683.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          4816.95,
+                          683.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          4816.95,
+                          392
+                        ]
+                      },
+                      {
+                        "point": [
+                          4869.62,
+                          392
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821ab5ca6c3a94928b09ed4"
+        },
+        "6821abb0a6c3a94928b09edc": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "6821abb192465c3b0c9084d5",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821abb0a6c3a94928b09edd"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821abb0a6c3a94928b09edc"
+        },
+        "6821abb0a6c3a94928b09ede": {
+          "type": "block",
+          "data": {
+            "name": "New Block 17",
+            "steps": [
+              "6821abb0a6c3a94928b09edc",
+              "6821abd6a6c3a94928b09ee5"
+            ]
+          },
+          "nodeID": "6821abb0a6c3a94928b09ede",
+          "coords": [
+            5035.616210937498,
+            312.9988902698862
+          ]
+        },
+        "6821abd6a6c3a94928b09ee5": {
+          "type": "choice-v2",
+          "data": {
+            "name": "Choice",
+            "items": [
+              {
+                "id": "cmakst6lu03x53j7v3tr0pbsd",
+                "intentID": "6797c2660cfd6c00ccbeddd1",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmakstbfd03xh3j7v0ogvvzuu",
+                "intentID": "6797c2110cfd6c00ccbedd9f",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmakst6lu03x53j7v3tr0pbsd": {
+                  "id": "6821abdba6c3a94928b09ee8",
+                  "target": "6821acc0a6c3a94928b09f02",
+                  "type": "",
+                  "data": {}
+                },
+                "cmakstbfd03xh3j7v0ogvvzuu": {
+                  "id": "6821abe2a6c3a94928b09eea",
+                  "target": "6821abffa6c3a94928b09eec",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4869.62,
+                          506.5
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          4845.62,
+                          506.5
+                        ]
+                      },
+                      {
+                        "point": [
+                          4845.62,
+                          278.28
+                        ]
+                      },
+                      {
+                        "point": [
+                          4890.39,
+                          278.28
+                        ]
+                      },
+                      {
+                        "point": [
+                          4890.39,
+                          50.07
+                        ]
+                      },
+                      {
+                        "point": [
+                          4866.39,
+                          50.07
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821abd6a6c3a94928b09ee5"
+        },
+        "6821abffa6c3a94928b09eec": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6821a931a6c3a94928b09ec4",
+                  "id": "6821abffa6c3a94928b09eed",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4534.39,
+                          59.07
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          4493,
+                          59.07
+                        ]
+                      },
+                      {
+                        "point": [
+                          4493,
+                          315
+                        ]
+                      },
+                      {
+                        "point": [
+                          4451.62,
+                          315
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "6821ac0c92465c3b0c90852a"
+          },
+          "nodeID": "6821abffa6c3a94928b09eec"
+        },
+        "6821abffa6c3a94928b09eee": {
+          "type": "block",
+          "data": {
+            "name": "New Block 18",
+            "steps": [
+              "6821abffa6c3a94928b09eec"
+            ],
+            "color": "#d58495"
+          },
+          "nodeID": "6821abffa6c3a94928b09eee",
+          "coords": [
+            4700.3889382102225,
+            -28.932927911932467
+          ]
+        },
+        "6821ac57a6c3a94928b09ef7": {
+          "type": "block",
+          "data": {
+            "name": "New Block 18",
+            "color": "#d58495",
+            "steps": [
+              "6821ac57a6c3a94928b09ef9"
+            ]
+          },
+          "nodeID": "6821ac57a6c3a94928b09ef7",
+          "coords": [
+            4024.6389382102234,
+            836.1504054214012
+          ]
+        },
+        "6821ac57a6c3a94928b09ef9": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "6821ac5905920ebb953242ba",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6821a931a6c3a94928b09ec4",
+                  "id": "6821ac57a6c3a94928b09efa",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          4190.64,
+                          924.15
+                        ]
+                      },
+                      {
+                        "point": [
+                          4214.64,
+                          924.15
+                        ]
+                      },
+                      {
+                        "point": [
+                          4214.64,
+                          619.57
+                        ]
+                      },
+                      {
+                        "point": [
+                          4095.62,
+                          619.57
+                        ]
+                      },
+                      {
+                        "point": [
+                          4095.62,
+                          315
+                        ]
+                      },
+                      {
+                        "point": [
+                          4119.62,
+                          315
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821ac57a6c3a94928b09ef9"
+        },
+        "6821acc0a6c3a94928b09f02": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmaksy7zf045j3j7vsehlod7q",
+                "type": "prompt",
+                "label": null,
+                "value": "6821acdb05920ebb953242c0",
+                "variableID": "6821aa3c92465c3b0c90848a"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821acc0a6c3a94928b09f03"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821acc0a6c3a94928b09f02"
+        },
+        "6821acc0a6c3a94928b09f04": {
+          "type": "block",
+          "data": {
+            "name": "New Block 20",
+            "steps": [
+              "6821acc0a6c3a94928b09f02",
+              "6821ad37a6c3a94928b09f0f"
+            ]
+          },
+          "nodeID": "6821acc0a6c3a94928b09f04",
+          "coords": [
+            5744.555959990534,
+            71.15049419981014
+          ]
+        },
+        "6821ad37a6c3a94928b09f0f": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmaksy7zf045j3j7vsehlod7q",
+                "type": "prompt",
+                "label": null,
+                "value": "6821ad5a05920ebb953242c3",
+                "variableID": "6821ad9b92465c3b0c908593"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6821addba6c3a94928b09f29",
+                  "id": "6821ad37a6c3a94928b09f10",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821ad37a6c3a94928b09f0f"
+        },
+        "6821addba6c3a94928b09f29": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821addba6c3a94928b09f2a"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "6821adde92465c3b0c9085cd"
+          },
+          "nodeID": "6821addba6c3a94928b09f29"
+        },
+        "6821addba6c3a94928b09f2b": {
+          "type": "block",
+          "data": {
+            "name": "New Block 21",
+            "steps": [
+              "6821addba6c3a94928b09f29",
+              "6821ae69a6c3a94928b09f38"
+            ]
+          },
+          "nodeID": "6821addba6c3a94928b09f2b",
+          "coords": [
+            6332.306477864587,
+            125.58789062500011
+          ]
+        },
+        "6821ae08a6c3a94928b09f35": {
+          "type": "markup_text",
+          "data": {
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Connect to google sheets via make.com"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 396,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            },
+            "name": "Block"
+          },
+          "nodeID": "6821ae08a6c3a94928b09f35",
+          "coords": [
+            6174.056477864588,
+            56.1503906250001
+          ]
+        },
+        "6821ae69a6c3a94928b09f38": {
+          "type": "api-v2",
+          "data": {
+            "name": "",
+            "url": [
+              {
+                "text": [
+                  "https://hook.eu2.make.com/e9a4gtquecw1at23max7lwmxuuh3qcy9"
+                ]
+              }
+            ],
+            "headers": [],
+            "httpMethod": "get",
+            "queryParameters": [
+              {
+                "id": "cmakt7h5d04g83j7v2o9kcpo0",
+                "key": "timestamp",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "timestamp"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmakt81b604gf3j7vby9kaq9s",
+                "key": "Name",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "6821aa3c92465c3b0c90848a"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmakt8br804gl3j7vuzwgv4cj",
+                "key": "Phone Number",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "6821ad9b92465c3b0c908593"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmakt9jwj04h53j7vjxbtrg63",
+                "key": "Property Size",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "68219fe392465c3b0c908127"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmakt904304gy3j7vv4yxguza",
+                "key": "Property Type",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "68219e5692465c3b0c9080c3"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmakta2e104hf3j7vmg80tgqz",
+                "key": "Quoted Price",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "6821a71a92465c3b0c90832a"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmaktaj5z04ho3j7vgo50ffon",
+                "key": "First Question",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "68218aa892465c3b0c9079eb"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "responseMappings": [],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6821b45ca6c3a94928b09fea",
+                  "id": "6821ae69a6c3a94928b09f39",
+                  "data": {}
+                },
+                "fail": {
+                  "id": "6821b467a6c3a94928b09ff4",
+                  "target": "6821b477a6c3a94928b09ff7",
+                  "type": "fail",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          6498.31,
+                          429.34
+                        ]
+                      },
+                      {
+                        "point": [
+                          6616.85,
+                          429.34
+                        ]
+                      },
+                      {
+                        "point": [
+                          6616.85,
+                          515.05
+                        ]
+                      },
+                      {
+                        "point": [
+                          6735.38,
+                          515.05
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "fallback": {
+              "path": true,
+              "pathLabel": "Failure"
+            }
+          },
+          "nodeID": "6821ae69a6c3a94928b09f38"
+        },
+        "6821b45ca6c3a94928b09fea": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821b45ca6c3a94928b09feb"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "6821b46a92465c3b0c908801"
+          },
+          "nodeID": "6821b45ca6c3a94928b09fea"
+        },
+        "6821b45ca6c3a94928b09fec": {
+          "type": "block",
+          "data": {
+            "name": "New Block 22",
+            "steps": [
+              "6821b45ca6c3a94928b09fea"
+            ]
+          },
+          "nodeID": "6821b45ca6c3a94928b09fec",
+          "coords": [
+            6969.895745371075,
+            76.04595991215227
+          ]
+        },
+        "6821b477a6c3a94928b09ff7": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "6821b47992465c3b0c908815",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6821b477a6c3a94928b09ff8"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6821b477a6c3a94928b09ff7"
+        },
+        "6821b477a6c3a94928b09ff9": {
+          "type": "block",
+          "data": {
+            "name": "New Block 23",
+            "steps": [
+              "6821b477a6c3a94928b09ff7"
+            ],
+            "color": "#d58495"
+          },
+          "nodeID": "6821b477a6c3a94928b09ff9",
+          "coords": [
+            6901.38223185756,
+            436.0459599121524
+          ]
+        },
+        "68218a17a6c3a94928b09d0d": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "68218a1792465c3b0c9079ba",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "",
+                  "target": null,
+                  "id": "68218a17a6c3a94928b09d0e"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68218a17a6c3a94928b09d0d"
+        },
+        "685bc155f640fa6b802780fb": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "if (property_type === 'Apartment') \r\n{\r\n price=property_size * 2;\r\n} \r\nelse \r\n{\r\n  price=property_size * 1.5; \r\n}",
+            "paths": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "685bc155f640fa6b802780fc",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          3384.14,
+                          245.28
+                        ]
+                      },
+                      {
+                        "point": [
+                          3744.86,
+                          238.31
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "685bc155f640fa6b802780fd"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "685bc155f640fa6b802780fb"
+        },
+        "685bc16bf640fa6b8027810b": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "685bc16bf640fa6b8027810c"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "685bc16f00cd24f6c102cc2a"
+          },
+          "nodeID": "685bc16bf640fa6b8027810b"
+        },
+        "68218ceaa6c3a94928b09d2b": {
+          "type": "choice-v2",
+          "data": {
+            "name": "Choice",
+            "items": [
+              {
+                "id": "cmako3hxw00le3j7vq1i55xkd",
+                "intentID": "6797c2660cfd6c00ccbeddd1",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmako4l5100mi3j7v1z0m2s9h",
+                "intentID": "6797c2110cfd6c00ccbedd9f",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmako3hxw00le3j7vq1i55xkd": {
+                  "type": "",
+                  "target": "68218e36a6c3a94928b09d3f",
+                  "id": "68218ceea6c3a94928b09d2e",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          512.46,
+                          154.64
+                        ]
+                      },
+                      {
+                        "point": [
+                          572.7,
+                          154.64
+                        ]
+                      },
+                      {
+                        "point": [
+                          572.7,
+                          49.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          632.95,
+                          49.56
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "cmako4l5100mi3j7v1z0m2s9h": {
+                  "type": "",
+                  "target": null,
+                  "id": "68218d21a6c3a94928b09d32"
+                },
+                "else": {
+                  "type": "",
+                  "target": null,
+                  "id": "68218d9ba6c3a94928b09d34",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          180.46,
+                          262.89
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          156.46,
+                          262.89
+                        ]
+                      },
+                      {
+                        "point": [
+                          156.46,
+                          370.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          250.65,
+                          370.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          250.65,
+                          478.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          226.65,
+                          478.72
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68218ceaa6c3a94928b09d2b",
+          "coords": [
+            0,
+            0
+          ]
+        }
+      },
+      "offsetX": 284.8024232359869,
+      "offsetY": 205.3256164776672,
+      "modified": 1701833501,
+      "creatorID": 1620614,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "682189d592465c3b0c907998",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "682189d592465c3b0c907995"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "68219d4392465c3b0c908091",
+      "name": "House",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "The user's property type is house",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-12T07:03:31.000Z",
+      "updatedAt": "2025-05-12T07:03:31.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219ddb92465c3b0c90809d",
+      "name": "Apartment",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "The user's property is an apartment",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-12T07:06:04.000Z",
+      "updatedAt": "2025-05-12T07:06:04.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedd9f",
+      "name": "No",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "Trigger this intent then the user responds negatively",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd1",
+      "name": "Yes",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "Trigger this intent when the user responds positively.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "utterances": [
+    {
+      "id": "6797c2110cfd6c00ccbedda0",
+      "text": [
+        {
+          "text": [
+            "I'm good"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda1",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda2",
+      "text": [
+        {
+          "text": [
+            "I think I'm good thanks"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda3",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda4",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda5",
+      "text": [
+        {
+          "text": [
+            "Under no circumstances"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda6",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda7",
+      "text": [
+        {
+          "text": [
+            "Nope, not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda8",
+      "text": [
+        {
+          "text": [
+            "No way"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda9",
+      "text": [
+        {
+          "text": [
+            "By no means"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaa",
+      "text": [
+        {
+          "text": [
+            "Not in the slightest"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddab",
+      "text": [
+        {
+          "text": [
+            "No chance"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddac",
+      "text": [
+        {
+          "text": [
+            "Absolutely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddad",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddae",
+      "text": [
+        {
+          "text": [
+            "Negative"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaf",
+      "text": [
+        {
+          "text": [
+            "Sorry, no"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb0",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb1",
+      "text": [
+        {
+          "text": [
+            "That's wrong"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb2",
+      "text": [
+        {
+          "text": [
+            "Incorrect"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb3",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb4",
+      "text": [
+        {
+          "text": [
+            "No"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd2",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd3",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd4",
+      "text": [
+        {
+          "text": [
+            "Of course"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd5",
+      "text": [
+        {
+          "text": [
+            "Certainly"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd6",
+      "text": [
+        {
+          "text": [
+            "Without question"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd7",
+      "text": [
+        {
+          "text": [
+            "Sure"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd8",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd9",
+      "text": [
+        {
+          "text": [
+            "You bet"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddda",
+      "text": [
+        {
+          "text": [
+            "Without a doubt"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddb",
+      "text": [
+        {
+          "text": [
+            "By all means"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddc",
+      "text": [
+        {
+          "text": [
+            "Agreed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddd",
+      "text": [
+        {
+          "text": [
+            "Absolutely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddde",
+      "text": [
+        {
+          "text": [
+            "That's correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddf",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde0",
+      "text": [
+        {
+          "text": [
+            "Affirmative"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde1",
+      "text": [
+        {
+          "text": [
+            "You are right"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c3060cfd6c00ccbede5c",
+      "text": [
+        {
+          "text": [
+            "Correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c3080cfd6c00ccbede5d",
+      "text": [
+        {
+          "text": [
+            "Yep"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "6797c3090cfd6c00ccbede5e",
+      "text": [
+        {
+          "text": [
+            "Yes"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-05-12T05:40:37.000Z"
+    },
+    {
+      "id": "68219d4392465c3b0c908092",
+      "text": [
+        {
+          "text": [
+            "House"
+          ]
+        }
+      ],
+      "intentID": "68219d4392465c3b0c908091",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:03:31.000Z"
+    },
+    {
+      "id": "68219d4392465c3b0c908093",
+      "text": [
+        {
+          "text": [
+            "Home"
+          ]
+        }
+      ],
+      "intentID": "68219d4392465c3b0c908091",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:03:31.000Z"
+    },
+    {
+      "id": "68219d4392465c3b0c908094",
+      "text": [
+        {
+          "text": [
+            "Living quarters"
+          ]
+        }
+      ],
+      "intentID": "68219d4392465c3b0c908091",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:03:31.000Z"
+    },
+    {
+      "id": "68219d4392465c3b0c908095",
+      "text": [
+        {
+          "text": [
+            "Residence"
+          ]
+        }
+      ],
+      "intentID": "68219d4392465c3b0c908091",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:03:31.000Z"
+    },
+    {
+      "id": "68219d4392465c3b0c908096",
+      "text": [
+        {
+          "text": [
+            "Family home"
+          ]
+        }
+      ],
+      "intentID": "68219d4392465c3b0c908091",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:03:31.000Z"
+    },
+    {
+      "id": "68219d4392465c3b0c908097",
+      "text": [
+        {
+          "text": [
+            "Mansion"
+          ]
+        }
+      ],
+      "intentID": "68219d4392465c3b0c908091",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:03:31.000Z"
+    },
+    {
+      "id": "68219ddb92465c3b0c90809e",
+      "text": [
+        {
+          "text": [
+            "Apartment"
+          ]
+        }
+      ],
+      "intentID": "68219ddb92465c3b0c90809d",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:06:04.000Z"
+    },
+    {
+      "id": "68219ddb92465c3b0c90809f",
+      "text": [
+        {
+          "text": [
+            "Condo"
+          ]
+        }
+      ],
+      "intentID": "68219ddb92465c3b0c90809d",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:06:04.000Z"
+    },
+    {
+      "id": "68219ddb92465c3b0c9080a0",
+      "text": [
+        {
+          "text": [
+            "Studio"
+          ]
+        }
+      ],
+      "intentID": "68219ddb92465c3b0c90809d",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:06:04.000Z"
+    },
+    {
+      "id": "68219ddb92465c3b0c9080a1",
+      "text": [
+        {
+          "text": [
+            "Townhouse"
+          ]
+        }
+      ],
+      "intentID": "68219ddb92465c3b0c90809d",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:06:04.000Z"
+    },
+    {
+      "id": "68219ddb92465c3b0c9080a2",
+      "text": [
+        {
+          "text": [
+            "Duplex"
+          ]
+        }
+      ],
+      "intentID": "68219ddb92465c3b0c90809d",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:06:04.000Z"
+    },
+    {
+      "id": "68219ddb92465c3b0c9080a3",
+      "text": [
+        {
+          "text": [
+            "Penthouse"
+          ]
+        }
+      ],
+      "intentID": "68219ddb92465c3b0c90809d",
+      "language": "en-us",
+      "createdAt": "2025-05-12T07:06:04.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "68218a1792465c3b0c9079ba",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T05:41:44.000Z",
+      "updatedAt": "2025-05-12T05:42:22.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68218c6392465c3b0c907ad1",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T05:51:32.000Z",
+      "updatedAt": "2025-05-12T05:51:43.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68218d3e92465c3b0c907b44",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T05:55:11.000Z",
+      "updatedAt": "2025-05-12T05:56:36.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821976d92465c3b0c907e9c",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T06:38:38.000Z",
+      "updatedAt": "2025-05-12T06:38:52.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219c9492465c3b0c90804f",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T07:00:37.000Z",
+      "updatedAt": "2025-05-12T07:01:19.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219cc892465c3b0c908076",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T07:01:28.000Z",
+      "updatedAt": "2025-05-12T07:01:49.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219de592465c3b0c9080b6",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T07:06:14.000Z",
+      "updatedAt": "2025-05-12T07:07:00.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219e9f92465c3b0c9080d6",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T07:09:19.000Z",
+      "updatedAt": "2025-05-12T07:09:53.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821a06492465c3b0c908160",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T07:16:52.000Z",
+      "updatedAt": "2025-05-12T07:17:32.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821a8f292465c3b0c9083bf",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T07:53:22.000Z",
+      "updatedAt": "2025-05-12T07:54:09.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821abb192465c3b0c9084d5",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T08:05:06.000Z",
+      "updatedAt": "2025-05-12T08:05:13.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821ac0c92465c3b0c90852a",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T08:06:37.000Z",
+      "updatedAt": "2025-05-12T08:07:06.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821ac5905920ebb953242ba",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T08:07:53.000Z",
+      "updatedAt": "2025-05-12T08:07:53.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821adde92465c3b0c9085cd",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T08:14:23.000Z",
+      "updatedAt": "2025-05-12T08:14:38.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821b46a92465c3b0c908801",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T08:42:19.000Z",
+      "updatedAt": "2025-05-12T08:42:29.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821b47992465c3b0c908815",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-05-12T08:42:33.000Z",
+      "updatedAt": "2025-05-12T08:42:41.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bbef200cd24f6c102ca97",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-25T09:18:42.000Z",
+      "updatedAt": "2025-06-25T09:18:59.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bc00e7150869734b46952",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-25T09:23:27.000Z",
+      "updatedAt": "2025-06-25T09:23:27.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bbf3300cd24f6c102caf6",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-25T09:19:47.000Z",
+      "updatedAt": "2025-06-25T09:20:01.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bbf6a7150869734b4694c",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-25T09:20:43.000Z",
+      "updatedAt": "2025-06-25T09:20:43.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bc16f00cd24f6c102cc2a",
+      "name": "",
+      "createdByID": 1620614,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-06-25T09:29:20.000Z",
+      "updatedAt": "2025-06-25T09:29:33.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "68219e9f92465c3b0c9080d8",
+      "discriminatorID": "68219e9f92465c3b0c9080d7",
+      "text": [
+        {
+          "text": [
+            "And how many square feet is it?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T07:09:19.000Z"
+    },
+    {
+      "id": "6821a06492465c3b0c908162",
+      "discriminatorID": "6821a06492465c3b0c908161",
+      "text": [
+        {
+          "text": [
+            "One sec, Let me get your quote"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T07:16:52.000Z"
+    },
+    {
+      "id": "68218a1792465c3b0c9079bc",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Hey, Welcome to Gaba, How can I help?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T05:41:44.000Z"
+    },
+    {
+      "id": "685ba73b00cd24f6c102bb7c",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Hello, welcome to Gaba, how can I assist you?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T07:37:31.000Z"
+    },
+    {
+      "id": "685ba77200cd24f6c102bbb9",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Hi there, how can I assist you today?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T07:38:27.000Z"
+    },
+    {
+      "id": "685ba77200cd24f6c102bbba",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Welcome to Gaba, how may I help you?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T07:38:27.000Z"
+    },
+    {
+      "id": "685ba77200cd24f6c102bbbb",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Hey, thanks for choosing Gaba, what can I do for you?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T07:38:27.000Z"
+    },
+    {
+      "id": "685ba77200cd24f6c102bbbc",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Hello, how can I assist you today at Gaba?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T07:38:27.000Z"
+    },
+    {
+      "id": "685ba77200cd24f6c102bbbd",
+      "discriminatorID": "68218a1792465c3b0c9079bb",
+      "text": [
+        {
+          "text": [
+            "Welcome to Gaba, how can I be of service to you?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T07:38:27.000Z"
+    },
+    {
+      "id": "6821abb192465c3b0c9084d7",
+      "discriminatorID": "6821abb192465c3b0c9084d6",
+      "text": [
+        {
+          "text": [
+            "",
+            {
+              "variableID": "last_response"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:05:06.000Z"
+    },
+    {
+      "id": "6821ac0c92465c3b0c90852c",
+      "discriminatorID": "6821ac0c92465c3b0c90852b",
+      "text": [
+        {
+          "text": [
+            "Ok lets try that again, please give your full name and phone number"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:06:37.000Z"
+    },
+    {
+      "id": "6821ac5905920ebb953242bc",
+      "discriminatorID": "6821ac5905920ebb953242bb",
+      "text": [
+        {
+          "text": [
+            "Ok lets try that again, please give your full name and phone number"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:07:53.000Z"
+    },
+    {
+      "id": "685bbf3300cd24f6c102caf8",
+      "discriminatorID": "685bbf3300cd24f6c102caf7",
+      "text": [
+        {
+          "text": [
+            "Price will be ",
+            {
+              "variableID": "685bbf4300cd24f6c102cb0a"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T09:19:47.000Z"
+    },
+    {
+      "id": "6821b46a92465c3b0c908803",
+      "discriminatorID": "6821b46a92465c3b0c908802",
+      "text": [
+        {
+          "text": [
+            "aLL DONE, tHANK YOU"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:42:19.000Z"
+    },
+    {
+      "id": "6821b47992465c3b0c908817",
+      "discriminatorID": "6821b47992465c3b0c908816",
+      "text": [
+        {
+          "text": [
+            "sOMETHING WENT WRONG"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:42:33.000Z"
+    },
+    {
+      "id": "6821b53a92465c3b0c908889",
+      "discriminatorID": "6821adde92465c3b0c9085ce",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:45:47.000Z"
+    },
+    {
+      "id": "68218c6392465c3b0c907ad3",
+      "discriminatorID": "68218c6392465c3b0c907ad2",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T05:51:32.000Z"
+    },
+    {
+      "id": "68218d3e92465c3b0c907b46",
+      "discriminatorID": "68218d3e92465c3b0c907b45",
+      "text": [
+        {
+          "text": [
+            "Sorry, I did'nt get that. Can you say it again? A Yes or a No is enough"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T05:55:11.000Z"
+    },
+    {
+      "id": "6821974292465c3b0c907e99",
+      "discriminatorID": "68218c6392465c3b0c907ad2",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T06:37:55.000Z"
+    },
+    {
+      "id": "68219c9492465c3b0c908051",
+      "discriminatorID": "68219c9492465c3b0c908050",
+      "text": [
+        {
+          "text": [
+            "Ok sure to give you an instant quote, I just need the property type and size in square feet."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T07:00:37.000Z"
+    },
+    {
+      "id": "68219cc892465c3b0c908078",
+      "discriminatorID": "68219cc892465c3b0c908077",
+      "text": [
+        {
+          "text": [
+            "Is the property a house or an apartment?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T07:01:28.000Z"
+    },
+    {
+      "id": "68219de592465c3b0c9080b8",
+      "discriminatorID": "68219de592465c3b0c9080b7",
+      "text": [
+        {
+          "text": [
+            "Sorry I dont get that. Is it a house or an apartment?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T07:06:14.000Z"
+    },
+    {
+      "id": "6821a8f292465c3b0c9083c1",
+      "discriminatorID": "6821a8f292465c3b0c9083c0",
+      "text": [
+        {
+          "text": [
+            "Please provide your name and phone number and i will get one of the team to call you to find a time that works"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T07:53:22.000Z"
+    },
+    {
+      "id": "6821adde92465c3b0c9085cf",
+      "discriminatorID": "6821adde92465c3b0c9085ce",
+      "text": [
+        {
+          "text": [
+            "Great, Let me get that added to our system"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T08:14:23.000Z"
+    },
+    {
+      "id": "6821976d92465c3b0c907e9e",
+      "discriminatorID": "6821976d92465c3b0c907e9d",
+      "text": [
+        {
+          "text": [
+            "",
+            {
+              "variableID": "6821978492465c3b0c907ea2"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-05-12T06:38:38.000Z"
+    },
+    {
+      "id": "685bb76f00cd24f6c102c669",
+      "discriminatorID": "68219cc892465c3b0c908077",
+      "text": [
+        {
+          "text": [
+            "Is the place a house or an apartment?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T08:46:39.000Z"
+    },
+    {
+      "id": "685bb76f00cd24f6c102c66a",
+      "discriminatorID": "68219cc892465c3b0c908077",
+      "text": [
+        {
+          "text": [
+            "Is this property a house or an apartment?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T08:46:39.000Z"
+    },
+    {
+      "id": "685bb76f00cd24f6c102c66b",
+      "discriminatorID": "68219cc892465c3b0c908077",
+      "text": [
+        {
+          "text": [
+            "Is it a house or an apartment?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T08:46:39.000Z"
+    },
+    {
+      "id": "685bbef200cd24f6c102ca99",
+      "discriminatorID": "685bbef200cd24f6c102ca98",
+      "text": [
+        {
+          "text": [
+            "Price will be {price}"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T09:18:42.000Z"
+    },
+    {
+      "id": "685bbf6a7150869734b4694e",
+      "discriminatorID": "685bbf6a7150869734b4694d",
+      "text": [
+        {
+          "text": [
+            "Price will be ",
+            {
+              "variableID": "685bbf4300cd24f6c102cb0a"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T09:20:43.000Z"
+    },
+    {
+      "id": "685bc00e7150869734b46954",
+      "discriminatorID": "685bc00e7150869734b46953",
+      "text": [
+        {
+          "text": [
+            "Price will be ",
+            {
+              "variableID": "685bbf4300cd24f6c102cb0a"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T09:23:27.000Z"
+    },
+    {
+      "id": "685bc16f00cd24f6c102cc2c",
+      "discriminatorID": "685bc16f00cd24f6c102cc2b",
+      "text": [
+        {
+          "text": [
+            "The approximate cleaning price will be around £",
+            {
+              "variableID": "685bbf4300cd24f6c102cb0a"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-06-25T09:29:20.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "68218c6392465c3b0c907ad2",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68218c6392465c3b0c907ad1",
+      "variantOrder": [
+        "68218c6392465c3b0c907ad3",
+        "6821974292465c3b0c907e99"
+      ],
+      "createdAt": "2025-05-12T05:51:32.000Z"
+    },
+    {
+      "id": "68218d3e92465c3b0c907b45",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68218d3e92465c3b0c907b44",
+      "variantOrder": [
+        "68218d3e92465c3b0c907b46"
+      ],
+      "createdAt": "2025-05-12T05:55:11.000Z"
+    },
+    {
+      "id": "6821976d92465c3b0c907e9d",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821976d92465c3b0c907e9c",
+      "variantOrder": [
+        "6821976d92465c3b0c907e9e"
+      ],
+      "createdAt": "2025-05-12T06:38:38.000Z"
+    },
+    {
+      "id": "68219c9492465c3b0c908050",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68219c9492465c3b0c90804f",
+      "variantOrder": [
+        "68219c9492465c3b0c908051"
+      ],
+      "createdAt": "2025-05-12T07:00:37.000Z"
+    },
+    {
+      "id": "68219de592465c3b0c9080b7",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68219de592465c3b0c9080b6",
+      "variantOrder": [
+        "68219de592465c3b0c9080b8"
+      ],
+      "createdAt": "2025-05-12T07:06:14.000Z"
+    },
+    {
+      "id": "68219e9f92465c3b0c9080d7",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68219e9f92465c3b0c9080d6",
+      "variantOrder": [
+        "68219e9f92465c3b0c9080d8"
+      ],
+      "createdAt": "2025-05-12T07:09:19.000Z"
+    },
+    {
+      "id": "6821a06492465c3b0c908161",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821a06492465c3b0c908160",
+      "variantOrder": [
+        "6821a06492465c3b0c908162"
+      ],
+      "createdAt": "2025-05-12T07:16:52.000Z"
+    },
+    {
+      "id": "6821abb192465c3b0c9084d6",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821abb192465c3b0c9084d5",
+      "variantOrder": [
+        "6821abb192465c3b0c9084d7"
+      ],
+      "createdAt": "2025-05-12T08:05:06.000Z"
+    },
+    {
+      "id": "6821a8f292465c3b0c9083c0",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821a8f292465c3b0c9083bf",
+      "variantOrder": [
+        "6821a8f292465c3b0c9083c1"
+      ],
+      "createdAt": "2025-05-12T07:53:22.000Z"
+    },
+    {
+      "id": "6821ac0c92465c3b0c90852b",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821ac0c92465c3b0c90852a",
+      "variantOrder": [
+        "6821ac0c92465c3b0c90852c"
+      ],
+      "createdAt": "2025-05-12T08:06:37.000Z"
+    },
+    {
+      "id": "6821ac5905920ebb953242bb",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821ac5905920ebb953242ba",
+      "variantOrder": [
+        "6821ac5905920ebb953242bc"
+      ],
+      "createdAt": "2025-05-12T08:07:53.000Z"
+    },
+    {
+      "id": "6821adde92465c3b0c9085ce",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821adde92465c3b0c9085cd",
+      "variantOrder": [
+        "6821adde92465c3b0c9085cf",
+        "6821b53a92465c3b0c908889"
+      ],
+      "createdAt": "2025-05-12T08:14:23.000Z"
+    },
+    {
+      "id": "6821b46a92465c3b0c908802",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821b46a92465c3b0c908801",
+      "variantOrder": [
+        "6821b46a92465c3b0c908803"
+      ],
+      "createdAt": "2025-05-12T08:42:19.000Z"
+    },
+    {
+      "id": "6821b47992465c3b0c908816",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "6821b47992465c3b0c908815",
+      "variantOrder": [
+        "6821b47992465c3b0c908817"
+      ],
+      "createdAt": "2025-05-12T08:42:33.000Z"
+    },
+    {
+      "id": "68218a1792465c3b0c9079bb",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68218a1792465c3b0c9079ba",
+      "variantOrder": [
+        "68218a1792465c3b0c9079bc",
+        "685ba73b00cd24f6c102bb7c",
+        "685ba77200cd24f6c102bbb9",
+        "685ba77200cd24f6c102bbba",
+        "685ba77200cd24f6c102bbbb",
+        "685ba77200cd24f6c102bbbc",
+        "685ba77200cd24f6c102bbbd"
+      ],
+      "createdAt": "2025-05-12T05:41:44.000Z"
+    },
+    {
+      "id": "68219cc892465c3b0c908077",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68219cc892465c3b0c908076",
+      "variantOrder": [
+        "68219cc892465c3b0c908078",
+        "685bb76f00cd24f6c102c669",
+        "685bb76f00cd24f6c102c66a",
+        "685bb76f00cd24f6c102c66b"
+      ],
+      "createdAt": "2025-05-12T07:01:28.000Z"
+    },
+    {
+      "id": "685bbef200cd24f6c102ca98",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "685bbef200cd24f6c102ca97",
+      "variantOrder": [
+        "685bbef200cd24f6c102ca99"
+      ],
+      "createdAt": "2025-06-25T09:18:42.000Z"
+    },
+    {
+      "id": "685bc00e7150869734b46953",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "685bc00e7150869734b46952",
+      "variantOrder": [
+        "685bc00e7150869734b46954"
+      ],
+      "createdAt": "2025-06-25T09:23:27.000Z"
+    },
+    {
+      "id": "685bbf3300cd24f6c102caf7",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "685bbf3300cd24f6c102caf6",
+      "variantOrder": [
+        "685bbf3300cd24f6c102caf8"
+      ],
+      "createdAt": "2025-06-25T09:19:47.000Z"
+    },
+    {
+      "id": "685bbf6a7150869734b4694d",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "685bbf6a7150869734b4694c",
+      "variantOrder": [
+        "685bbf6a7150869734b4694e"
+      ],
+      "createdAt": "2025-06-25T09:20:43.000Z"
+    },
+    {
+      "id": "685bc16f00cd24f6c102cc2b",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "685bc16f00cd24f6c102cc2a",
+      "variantOrder": [
+        "685bc16f00cd24f6c102cc2c"
+      ],
+      "createdAt": "2025-06-25T09:29:20.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "6821978492465c3b0c907ea2",
+      "name": "summarized_problem",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T06:39:01.000Z",
+      "updatedAt": "2025-05-12T06:39:01.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "682197d292465c3b0c907ea8",
+      "name": "chunks",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T06:40:18.000Z",
+      "updatedAt": "2025-05-12T06:40:18.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219e5692465c3b0c9080c3",
+      "name": "property_type",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T07:08:06.000Z",
+      "updatedAt": "2025-05-12T07:08:06.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68218aa892465c3b0c9079eb",
+      "name": "first_user_reply",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "users first reply",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T05:44:08.000Z",
+      "updatedAt": "2025-05-12T05:44:08.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219fe392465c3b0c908127",
+      "name": "property_size",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T07:14:44.000Z",
+      "updatedAt": "2025-05-12T07:14:44.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821919b92465c3b0c907bf5",
+      "name": "desired_action",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#56B365",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "the most likely action that the prospect want to take",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T06:13:47.000Z",
+      "updatedAt": "2025-05-12T06:13:47.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821a71a92465c3b0c90832a",
+      "name": "raw_quote_data",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "raw quote data from instant quote generator tool",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T07:45:31.000Z",
+      "updatedAt": "2025-05-12T07:45:31.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821aa3c92465c3b0c90848a",
+      "name": "name",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "users name",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T07:58:52.000Z",
+      "updatedAt": "2025-05-12T08:10:00.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821ad9b92465c3b0c908593",
+      "name": "phone_number",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "users phone number",
+      "defaultValue": null,
+      "createdAt": "2025-05-12T08:13:15.000Z",
+      "updatedAt": "2025-05-12T08:13:15.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bbf4300cd24f6c102cb0a",
+      "name": "price",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-06-25T09:20:03.000Z",
+      "updatedAt": "2025-06-25T09:20:03.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "685bc1b200cd24f6c102cc44",
+      "name": "cleaningprice",
+      "createdByID": 1620614,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-06-25T09:30:26.000Z",
+      "updatedAt": "2025-06-25T09:30:26.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Start workflow",
+      "createdByID": 1620614,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "",
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-07-01T07:04:00.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "prompts": [
+    {
+      "id": "68218b0305920ebb95324225",
+      "name": "Untitled prompt",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": null,
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "68218b0305920ebb95324226",
+        "68218b0305920ebb95324227"
+      ],
+      "createdAt": "2025-05-12T05:45:40.000Z",
+      "updatedAt": "2025-05-12T05:45:40.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68218b4105920ebb95324228",
+      "name": "Summarize problem",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "model": "gpt-4o-mini",
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "68218b4105920ebb95324229",
+        "68218b4992465c3b0c907a72",
+        "68218b4105920ebb9532422a"
+      ],
+      "createdAt": "2025-05-12T05:46:42.000Z",
+      "updatedAt": "2025-06-25T07:41:18.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821981305920ebb95324250",
+      "name": "Generate answer from chunk",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "model": "gpt-4o-mini",
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6821981305920ebb95324251",
+        "6821981692465c3b0c907eb9",
+        "6821981305920ebb95324252"
+      ],
+      "createdAt": "2025-05-12T06:41:23.000Z",
+      "updatedAt": "2025-06-25T08:34:26.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "68219f4e05920ebb95324265",
+      "name": "Extract Sq ft",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "model": "gpt-4o-mini",
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "68219f4e05920ebb95324266",
+        "68219f4e05920ebb95324267"
+      ],
+      "createdAt": "2025-05-12T07:12:15.000Z",
+      "updatedAt": "2025-06-25T08:44:27.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821a72d05920ebb95324299",
+      "name": "Quate response",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6821a72d05920ebb9532429a",
+        "6821a73092465c3b0c908334",
+        "6821a72d05920ebb9532429b"
+      ],
+      "createdAt": "2025-05-12T07:45:49.000Z",
+      "updatedAt": "2025-05-12T07:49:26.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821a9b005920ebb953242b1",
+      "name": "extract name and phone",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6821a9b005920ebb953242b2",
+        "6821a9b005920ebb953242b3"
+      ],
+      "createdAt": "2025-05-12T07:56:32.000Z",
+      "updatedAt": "2025-05-12T08:03:23.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821acdb05920ebb953242c0",
+      "name": "Extract name",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6821acdb05920ebb953242c1",
+        "6821adc592465c3b0c9085b9",
+        "6821acdb05920ebb953242c2"
+      ],
+      "createdAt": "2025-05-12T08:10:03.000Z",
+      "updatedAt": "2025-05-12T08:13:58.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "6821ad5a05920ebb953242c3",
+      "name": "extract phone number",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6821ad5a05920ebb953242c4",
+        "6821adce92465c3b0c9085be",
+        "6821ad5a05920ebb953242c5"
+      ],
+      "createdAt": "2025-05-12T08:12:11.000Z",
+      "updatedAt": "2025-05-12T08:14:06.000Z",
+      "updatedByID": 1620614
+    },
+    {
+      "id": "682191b905920ebb95324237",
+      "name": "Intent classifier",
+      "createdByID": 1620614,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "model": "gpt-4o-mini",
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "682191b905920ebb95324238",
+        "682191c892465c3b0c907c17",
+        "682191b905920ebb95324239"
+      ],
+      "createdAt": "2025-05-12T06:14:17.000Z",
+      "updatedAt": "2025-06-25T08:20:51.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "promptMessages": [
+    {
+      "id": "68218b0305920ebb95324226",
+      "promptID": "68218b0305920ebb95324225",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T05:45:40.000Z"
+    },
+    {
+      "id": "68218b0305920ebb95324227",
+      "promptID": "68218b0305920ebb95324225",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T05:45:40.000Z"
+    },
+    {
+      "id": "68218b4105920ebb95324229",
+      "promptID": "68218b4105920ebb95324228",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T05:46:42.000Z"
+    },
+    {
+      "id": "68218b4992465c3b0c907a72",
+      "promptID": "68218b4105920ebb95324228",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T05:46:49.000Z"
+    },
+    {
+      "id": "68218b4105920ebb9532422a",
+      "promptID": "68218b4105920ebb95324228",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Summarize the customers question below and ask them to confirm if thats what they meant. They should be able to answer only with yes or no, this is a confirmation step. not asking for more information."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Question: ",
+              {
+                "variableID": "68218aa892465c3b0c9079eb"
+              },
+              " "
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Ensure your tone is empathetic. Speak directly to the end customer. Keep your answer brief and two sentences max."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T05:46:42.000Z"
+    },
+    {
+      "id": "682191b905920ebb95324238",
+      "promptID": "682191b905920ebb95324237",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T06:14:17.000Z"
+    },
+    {
+      "id": "682191c892465c3b0c907c17",
+      "promptID": "682191b905920ebb95324237",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T06:14:32.000Z"
+    },
+    {
+      "id": "682191b905920ebb95324239",
+      "promptID": "682191b905920ebb95324237",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "What does the customer want to do?"
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Ask a question, get a realtime quote or something else entirely?"
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "You must output a label for this only, Your options are:"
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "\"ask_a_question\": general questions about our business, our services, how we operate etc, these will be routed to a knowledge base of our company docs to be answered."
+            ]
+          },
+          {
+            "text": [
+              "\"get_a_quote\": They are asking about pricing or have directly requested a quote etc,"
+            ]
+          },
+          {
+            "text": [
+              "This will take them to a real time quotation tool that takes in their property type and size then returns the estimate."
+            ]
+          },
+          {
+            "text": [
+              "\"other\": anything outside of these two."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "DO NOT INCLUDE ANY OTHER EXPLANATION OR REASONING IN YOUR RESPONSE, JUST GIVE THE LABEL AS THE OUTPUT ONLY."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T06:14:17.000Z"
+    },
+    {
+      "id": "6821981692465c3b0c907eb9",
+      "promptID": "6821981305920ebb95324250",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T06:41:26.000Z"
+    },
+    {
+      "id": "6821981305920ebb95324251",
+      "promptID": "6821981305920ebb95324250",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T06:41:23.000Z"
+    },
+    {
+      "id": "68219f4e05920ebb95324266",
+      "promptID": "68219f4e05920ebb95324265",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:12:15.000Z"
+    },
+    {
+      "id": "6821a72d05920ebb9532429a",
+      "promptID": "6821a72d05920ebb95324299",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:45:49.000Z"
+    },
+    {
+      "id": "6821a73092465c3b0c908334",
+      "promptID": "6821a72d05920ebb95324299",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:45:53.000Z"
+    },
+    {
+      "id": "6821a72d05920ebb9532429b",
+      "promptID": "6821a72d05920ebb95324299",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "write a short and clear explanation of this quote for the customer's ",
+              {
+                "variableID": "68219e5692465c3b0c9080c3"
+              },
+              " :",
+              {
+                "variableID": "6821a71a92465c3b0c90832a"
+              },
+              " "
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Your response will be read over the phone and so must be all in pne paragraph, be no longer than 3-4 short sentences."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "It should read like:"
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Based on your requirements the estimated cost will be £45000.  "
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Do not ask a question at the end. just give them a description."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:45:49.000Z"
+    },
+    {
+      "id": "6821a9b005920ebb953242b2",
+      "promptID": "6821a9b005920ebb953242b1",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:56:32.000Z"
+    },
+    {
+      "id": "6821a9b005920ebb953242b3",
+      "promptID": "6821a9b005920ebb953242b1",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "We have just asked the user to provide their name and phone number, we need to attempt to extract the information and confirm it with them."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Here's their reply:"
+            ]
+          },
+          {
+            "text": [
+              "",
+              {
+                "variableID": "last_utterance"
+              },
+              " "
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "If there is a valid name and phone number present then you must do a confirmation, e.g \"Ok, just quickly to confirm your name is [name] and your number is [number]. Is that correct?"
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "However if one or both are missing or appears to be invalid. You must output only 'RETRY' as your response and nothing else. This RETRY variable will be checked for and if it matches exactly then it will trigger another attempt to capture."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "So please either,"
+            ]
+          },
+          {
+            "text": [
+              "a) write a short and sweet confirmation message"
+            ]
+          },
+          {
+            "text": [
+              "OR"
+            ]
+          },
+          {
+            "text": [
+              "b) output RETRY for another attempt at capturing"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:56:32.000Z"
+    },
+    {
+      "id": "6821acdb05920ebb953242c1",
+      "promptID": "6821acdb05920ebb953242c0",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T08:10:03.000Z"
+    },
+    {
+      "id": "6821acdb05920ebb953242c2",
+      "promptID": "6821acdb05920ebb953242c0",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "We have just confirmed the user's name and phone number, now we need to store their name as a variable."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Please output their name and their name only."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T08:10:03.000Z"
+    },
+    {
+      "id": "6821ad5a05920ebb953242c4",
+      "promptID": "6821ad5a05920ebb953242c3",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T08:12:11.000Z"
+    },
+    {
+      "id": "6821ad5a05920ebb953242c5",
+      "promptID": "6821ad5a05920ebb953242c3",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "We have just confirmed the user's name and phone number, now we need to store their phone number as a variable."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Please output their phone number and their phone number only."
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T08:12:11.000Z"
+    },
+    {
+      "id": "6821adc592465c3b0c9085b9",
+      "promptID": "6821acdb05920ebb953242c0",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T08:13:58.000Z"
+    },
+    {
+      "id": "6821adce92465c3b0c9085be",
+      "promptID": "6821ad5a05920ebb953242c3",
+      "pairID": null,
+      "type": "variable",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              {
+                "variableID": "vf_memory"
+              }
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T08:14:06.000Z"
+    },
+    {
+      "id": "68219f4e05920ebb95324267",
+      "promptID": "68219f4e05920ebb95324265",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Extract the number of square feet from what the user said in numerical only format."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "e.g: 500"
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  {
+                    "text": [
+                      ""
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": [
+                  "User said: ",
+                  {
+                    "variableID": "last_utterance"
+                  },
+                  " "
+                ]
+              },
+              {
+                "text": [
+                  {
+                    "text": [
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Include nothing else in your response."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "This will be saved as a variable "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T07:12:15.000Z"
+    },
+    {
+      "id": "6821981305920ebb95324252",
+      "promptID": "6821981305920ebb95324250",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "You are an AI Customer support rep from GABA helping a customer with their question. Use the provided details below to answer the customers question."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Ensure to keep your answer brief and speak directly to the end customer. You are speaking to them over the phone."
+            ]
+          },
+          {
+            "text": [
+              {
+                "text": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              "Input data:"
+            ]
+          },
+          {
+            "text": [
+              "1. Provided details: \"",
+              {
+                "variableID": "682197d292465c3b0c907ea8"
+              },
+              " \""
+            ]
+          },
+          {
+            "text": [
+              "2. The User's orginal question: \"",
+              {
+                "variableID": "68218aa892465c3b0c9079eb"
+              },
+              " \""
+            ]
+          },
+          {
+            "text": [
+              "3. Our summary of their problem that they confirmed: \"",
+              {
+                "variableID": "6821978492465c3b0c907ea2"
+              },
+              " "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2025-05-12T06:41:23.000Z"
+    }
+  ],
+  "events": [],
+  "agents": [
+    {
+      "id": "67db2b56cbe88befffef4623",
+      "name": "Customer support specialist",
+      "createdByID": 1620614,
+      "folderID": null,
+      "settings": {},
+      "description": "An agent template for resolving issues and ensuring customer satisfaction with technical skill and empathy.",
+      "instructions": [
+        {
+          "text": [
+            "# Customer Service & Support Agent Prompt\n\n## Identity & Purpose\n\nYou are Laura, a customer service voice assistant for AcmeSolutions. Your primary purpose is to help customers resolve issues with their products, answer questions about services, and ensure a satisfying support experience.\n\n## Voice & Persona\n\n### Personality\n- Sound friendly, patient, and knowledgeable without being condescending\n- Use a conversational tone with natural speech patterns, including occasional \"hmm\" or \"let me think about that\" to simulate thoughtfulness\n- Speak with confidence but remain humble when you don't know something\n- Demonstrate genuine concern for customer issues\n\n### Speech Characteristics\n- Use contractions naturally (I'm, we'll, don't, etc.)\n- Vary your sentence length and complexity to sound natural\n- Include occasional filler words like \"actually\" or \"essentially\" for authenticity\n- Speak at a moderate pace, slowing down for complex information\n\n## Conversation Flow\n\n### Introduction\nStart with: \"Hi there, this is Laura from AcmeSolutions customer support. How can I help you today?\"\n\nIf the customer sounds frustrated or mentions an issue immediately, acknowledge their feelings: \"I understand that's frustrating. I'm here to help get this sorted out for you.\"\n\n### Issue Identification\n1. Use open-ended questions initially: \"Could you tell me a bit more about what's happening with your [product/service]?\"\n2. Follow with specific questions to narrow down the issue: \"When did you first notice this problem?\" or \"Does this happen every time you use it?\"\n3. Confirm your understanding: \"So if I understand correctly, your [product] is [specific issue] when you [specific action]. Is that right?\"\n\n### Troubleshooting\n1. Start with simple solutions: \"Let's try a few basic troubleshooting steps first.\"\n2. Provide clear step-by-step instructions: \"First, I'd like you to... Next, could you...\"\n3. Check progress at each step: \"What are you seeing now on your screen?\"\n4. Explain the purpose of each step: \"We're doing this to rule out [potential cause].\"\n\n### Resolution\n1. For resolved issues: \"Great! I'm glad we were able to fix that issue. Is everything working as expected now?\"\n2. For unresolved issues: \"Since we haven't been able to resolve this with basic troubleshooting, I'd recommend [next steps].\"\n3. Offer additional assistance: \"Is there anything else about your [product/service] that I can help with today?\"\n\n### Closing\nEnd with: \"Thank you for contacting AcmeSolutions support. If you have any other questions or if this issue comes up again, please don't hesitate to call us back. Have a great day!\"\n\n## Response Guidelines\n\n- Keep responses conversational and under 30 words when possible\n- Ask only one question at a time to avoid overwhelming the customer\n- Use explicit confirmation for important information: \"So the email address on your account is example@email.com, is that correct?\"\n- Avoid technical jargon unless the customer uses it first, then match their level of technical language\n- Express empathy for customer frustrations: \"I completely understand how annoying that must be.\"\n\n## Scenario Handling\n\n### For Common Technical Issues\n1. Password resets: Walk customers through the reset process, explaining each step\n2. Account access problems: Verify identity using established protocols, then troubleshoot login issues\n3. Product malfunction: Gather specific details about what's happening, when it started, and what changes were made recently\n4. Billing concerns: Verify account details first, explain charges clearly, and offer to connect with billing specialists if needed\n\n### For Frustrated Customers\n1. Let them express their frustration without interruption\n2. Acknowledge their feelings: \"I understand you're frustrated, and I would be too in this situation.\"\n3. Take ownership: \"I'm going to personally help get this resolved for you.\"\n4. Focus on solutions rather than dwelling on the problem\n5. Provide clear timeframes for resolution\n\n### For Complex Issues\n1. Break down complex problems into manageable components\n2. Address each component individually\n3. Provide a clear explanation of the issue in simple terms\n4. If technical expertise is required: \"This seems to require specialized assistance. Would it be okay if I connect you with our technical team who can dive deeper into this issue?\"\n\n### For Feature/Information Requests\n1. Provide accurate, concise information about available features\n2. If uncertain about specific details: \"That's a good question about [feature]. To give you the most accurate information, let me check our latest documentation on that.\"\n3. For unavailable features: \"Currently, our product doesn't have that specific feature. However, we do offer [alternative] which can help accomplish [similar goal].\"\n\n## Knowledge Base\n\n### Product Information\n- AcmeSolutions offers software services for productivity, security, and business management\n- Our flagship products include TaskMaster Pro (productivity), SecureShield (security), and BusinessFlow (business management)\n- All products have desktop and mobile applications\n- Subscription tiers include Basic, Premium, and Enterprise\n- Support hours are Monday through Friday, 8am to 8pm Eastern Time, and Saturday 9am to 5pm\n\n### Common Solutions\n- Most connectivity issues can be resolved by signing out completely, clearing browser cache, and signing back in\n- Performance problems often improve after restarting the application and ensuring the operating system is updated\n- Data synchronization issues typically resolve by checking internet connection and forcing a manual sync\n- Most mobile app problems can be fixed by updating to the latest version or reinstalling the application\n\n### Account Management\n- Customers can upgrade or downgrade their subscription through their account dashboard\n- Billing occurs on the same day each month based on signup date\n- Payment methods can be updated through the account settings page\n- Free trials last for 14 days and require payment information to activate\n\n### Limitations\n- You cannot process refunds directly but can escalate to the billing department\n- You cannot make changes to account ownership\n- You cannot provide technical support for third-party integrations not officially supported\n- You cannot access or view customer passwords for security reasons\n\n## Response Refinement\n\n- When explaining technical concepts, use analogies when helpful: \"Think of this feature like an automatic filing system for your digital documents.\"\n- For step-by-step instructions, number each step clearly and confirm completion before moving to the next\n- When discussing pricing or policies, be transparent and direct while maintaining a friendly tone\n- If the customer needs to wait (for system checks, etc.), explain why and provide time estimates\n\n## Call Management\n\n- If background noise interferes with communication: \"I'm having a little trouble hearing you clearly. Would it be possible to move to a quieter location or adjust your microphone?\"\n- If you need time to locate information: \"I'd like to find the most accurate information for you. Can I put you on a brief hold while I check our latest documentation on this?\"\n- If the call drops, attempt to reconnect and begin with: \"Hi there, this is Laura again from AcmeSolutions. I apologize for the disconnection. Let's continue where we left off with [last topic].\"\n\nRemember that your ultimate goal is to resolve customer issues efficiently while creating a positive, supportive experience that reinforces their trust in AcmeSolutions."
+          ]
+        }
+      ],
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Triggered the knowledge base when you don't know the answer to a question."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-05-12T05:40:37.000Z",
+      "updatedAt": "2025-05-12T05:40:37.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "agentAPITools": [],
+  "agentPathTools": [],
+  "agentFunctionTools": [],
+  "agentIntegrationTools": [],
+  "agentPathToolVariables": [],
+  "apiTools": [],
+  "apiToolInputVariables": [],
+  "integrationTools": [],
+  "functions": [
+    {
+      "id": "685bb8ec00cd24f6c102c743",
+      "name": "Untitled function",
+      "createdByID": 1620614,
+      "folderID": null,
+      "code": "export default async function main(args) {\n  const { inputVars } = args;\n  const responseText = \"Hello World\";\n\n  return {\n    trace: [\n      {\n        type: \"text\",\n        payload: {\n          message: `${responseText}`,\n        },\n      },\n    ],\n  };\n}",
+      "image": null,
+      "description": null,
+      "pathOrder": [
+        "685bb92f00cd24f6c102c76b"
+      ],
+      "createdAt": "2025-06-25T08:53:01.000Z",
+      "updatedAt": "2025-06-25T08:54:08.000Z",
+      "updatedByID": 1620614
+    }
+  ],
+  "functionPaths": [
+    {
+      "id": "685bb92f00cd24f6c102c76b",
+      "name": "",
+      "label": "",
+      "functionID": "685bb8ec00cd24f6c102c743",
+      "createdAt": "2025-06-25T08:54:07.664Z"
+    }
+  ],
+  "functionVariables": [
+    {
+      "id": "685bb91e00cd24f6c102c765",
+      "name": "variable1",
+      "type": "input",
+      "functionID": "685bb8ec00cd24f6c102c743",
+      "description": "",
+      "createdAt": "2025-06-25T08:53:50.302Z"
+    },
+    {
+      "id": "685bb92e00cd24f6c102c76a",
+      "name": "variable1",
+      "type": "output",
+      "functionID": "685bb8ec00cd24f6c102c743",
+      "description": "",
+      "createdAt": "2025-06-25T08:54:06.031Z"
+    }
+  ],
+  "project": {
+    "type": "chat",
+    "name": "Chatbot",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1729190521409-square-onyx-1024.jpg",
+    "teamID": "VwjrDqZ9E5",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 1620614,
+    "updatedBy": 1620614,
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "privacy": "private",
+    "apiPrivacy": "private",
+    "_id": "682189d592465c3b0c907994",
+    "updatedAt": "2025-07-01T05:09:32.358Z",
+    "devVersion": "682189d592465c3b0c907995",
+    "liveVersion": "682189d592465c3b0c907996"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": []
+}
