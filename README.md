@@ -5,8 +5,8 @@ A basic chatbot setup in Voiceflow designed to cover foundational concepts, prov
 
 ## 📥 Downloadable Files
 
-- 📄 [Download Tutorial PDF](./Voiceflow chatbot.pdf)
-- 📁 [Download Voiceflow Project (.vf)](./Voiceflow chatbot.pdf)
+- 📄 [Download Tutorial PDF](Voiceflow-chatbot.pdf)
+- 📁 [Download Voiceflow Project (.vf)](Voiceflow-chatbot.pdf)
 
 ## 🙏 Final Thoughts
 This project is a simple example of what's possible with Voiceflow. With additional blocks and integrations, you can transform this into a powerful digital assistant capable of handling complex conversations, storing user data, booking appointments, and much more.
